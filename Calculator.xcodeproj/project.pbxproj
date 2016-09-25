@@ -12,6 +12,7 @@
 		D898AC241D9771E500BB2678 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D898AC221D9771E500BB2678 /* Main.storyboard */; };
 		D898AC261D9771E500BB2678 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D898AC251D9771E500BB2678 /* Assets.xcassets */; };
 		D898AC291D9771E500BB2678 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D898AC271D9771E500BB2678 /* LaunchScreen.storyboard */; };
+		D898AC311D9772CB00BB2678 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = D898AC301D9772CB00BB2678 /* CalculatorBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D898AC251D9771E500BB2678 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D898AC281D9771E500BB2678 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D898AC2A1D9771E500BB2678 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D898AC301D9772CB00BB2678 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				D898AC1E1D9771E500BB2678 /* AppDelegate.swift */,
+				D898AC301D9772CB00BB2678 /* CalculatorBrain.swift */,
 				D898AC201D9771E500BB2678 /* ViewController.swift */,
 				D898AC221D9771E500BB2678 /* Main.storyboard */,
 				D898AC251D9771E500BB2678 /* Assets.xcassets */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D898AC311D9772CB00BB2678 /* CalculatorBrain.swift in Sources */,
 				D898AC211D9771E500BB2678 /* ViewController.swift in Sources */,
 				D898AC1F1D9771E500BB2678 /* AppDelegate.swift in Sources */,
 			);
